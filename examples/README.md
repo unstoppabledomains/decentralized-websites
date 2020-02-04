@@ -8,10 +8,10 @@ In the `ud-static-templates` directory you will find all of the templates availa
 
 **Notes**
 
+- They inline CSS and styles are the options available to update in
 - SVG Icons are inlined so that colors can be updated
--
 
-## JS Frameworks
+## Using JS Frameworks
 
 Hosting a website on IPFS is slightly different than hosting it on a web server out in the cloud. Your website may require a little bit of tweaking in order to properly be served on the IPFS network.
 The important rules are:
