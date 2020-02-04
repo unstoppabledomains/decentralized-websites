@@ -1,5 +1,6 @@
 const pinataSDK = require("@pinata/sdk");
 const pinata = pinataSDK(process.env.PINATA_API_KEY, process.env.PINATA_SECRET);
+
 // Update the sourcePath to point to your own build folder
 const sourcePath = `${__dirname}/build`;
 
@@ -12,7 +13,7 @@ const options = {
 pinata
   .testAuthentication()
   .then(() => {
-    console.log("Piñata Authenticated");
+    console.log("Pinata Authenticated");
     pinata
       .pinFromFS(sourcePath, options)
       .then(result => {
@@ -26,9 +27,10 @@ pinata
   .catch(err => {
     console.log(err);
   });
-
-// PinataPinFSResponse {
-//   IpfsHash: string; // The IPFS multi-hash provided back for your content
-//   PinSize: string; // Size (in bytes) of the content you just pinned is
-//   Timestamp: string; // The timestamp for your content pinning (ISO 8601 format)
-// }
+/*
+PinataPinFSResponse {
+  IpfsHash: string; // The IPFS multi-hash provided back for your content
+  PinSize: string; // Size (in bytes) of the content you just pinned is
+  Timestamp: string; // The timestamp for your content pinning (ISO 8601 format)
+}
+*/
