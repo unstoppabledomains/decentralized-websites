@@ -1,0 +1,186 @@
+@font-face {
+  font-family: Lato;
+  src: url('./assets/Lato-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Lato;
+  src: url('./assets/Lato-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Lato;
+  src: url('./assets/Lato-Black.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  margin: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+div {
+  display: flex;
+  margin: 0;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 6px;
+  padding: 0px 32px;
+}
+
+.Root {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.Profile-Content {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 96px;
+}
+
+.Profile-Name {
+  font-family: Lato;
+  font-size: 58px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29293e;
+  margin-bottom: 0px;
+}
+
+.Profile-Title {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29293e;
+}
+
+.Contact-Container {
+  margin-bottom: 40px;
+}
+
+.Contact-BTN {
+  height: 60px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+}
+
+.Bio-Content {
+  opacity: 0.8;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #29293e;
+}
+
+.Image-Container {
+  flex: 2;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-position: center right;
+}
+
+/* SocialIcons */
+.Social-Container {
+  align-items: center;
+  padding-left: 24px;
+  padding-top: 50px;
+}
+
+.Social-Link {
+  padding: 0px;
+  margin: 8px;
+}
+
+.Social-Logo {
+  width: 24px;
+  height: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Root {
+    flex-direction: column-reverse;
+    flex: 1 1 auto;
+  }
+  .Profile-Content {
+    flex: 1 1 auto;
+    padding: 24px;
+  }
+  .Contact-Container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .Contact-BTN {
+    width: 100%;
+    margin-top: 12px;
+  }
+  .Social-Container {
+    padding-top: 0;
+    padding-left: 0px;
+    margin-top: 24px;
+    justify-content: space-around;
+  }
+  .Social-Logo {
+    width: 28px;
+    height: 28px;
+  }
+  .Image-Container {
+    flex: 1 1 auto;
+    min-height: 44vh;
+    background-position: center top;
+  }
+}
