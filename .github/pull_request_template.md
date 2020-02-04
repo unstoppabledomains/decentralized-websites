@@ -9,9 +9,6 @@
 
 ## Contribution Description
 
+_i.e. files updated, new template(s) added, bugs fixed, etc._
+
 [ ] **I would like my template to be added to the Unstoppable Domains' website builder** <!-- Remove if not applicable -->
-
-## File Update(s) <!-- For new template dirs, only specify template dir  -->
-
-- `dir/file` [choose one: _updated_,_added_,_removed_]:
-  - changes
