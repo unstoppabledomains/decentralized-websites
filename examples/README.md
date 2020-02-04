@@ -8,7 +8,7 @@ In the `ud-static-templates` directory you will find all of the templates availa
 
 **Notes**
 
-- They inline CSS and styles are the options available to update in
+- The inline CSS styles are the options available to update in the website builder
 - SVG Icons are inlined so that colors can be updated
 
 ## Using JS Frameworks

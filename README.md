@@ -18,13 +18,20 @@ Basics for Decentralized Websites
 
 ## Contributing
 
-We'd love to make your templates available on Unstoppable Domains' website builder. To add a new template simply fork this repo add your templates into [examples/community](examples/community) and submit a PR for your update.
+**Add your template**  
+We'd love to make your templates available on Unstoppable Domains' website builder.
+To add a new template simply fork this repo, add your templates into [examples/community](examples/community/README.md), and submit a PR with your update.
+
+**Bug Report or Improvement:**  
+To report a bug in a template or suggest an improvement to this repo simply go to issues and fill out the proper template.
 
 ## Additional Articles & Resources
 
-<!-- TODO -->
+**Tutorials**
 
-### Repo TODOs
+- [How to Easily Host a Website on IPFS](https://medium.com/pinata/how-to-easily-host-a-website-on-ipfs-9d842b5d6a01)
 
-[ ] Make sure html files are up to date  
-[ ] improve how to contributing description
+**IPFS Information**
+
+- [IPFS Homepage](https://ipfs.io/)
+- [IPFS Video Explaination](https://www.youtube.com/watch?v=5Uj6uR3fp-U)
