@@ -20,7 +20,7 @@ Basics for Decentralized Websites
 
 **Add your template**  
 We'd love to make your templates available on Unstoppable Domains' website builder.
-To add a new template simply fork this repo, add your templates into [examples/community](examples/community), and submit a PR with your update.
+To add a new template simply fork this repo, add your templates into [examples/community](examples/community), and submit a PR with your update. Checkout our guidelines for [submitting a template](https://github.com/unstoppabledomains/decentralized-websites/tree/master/examples/community#submitting-a-template)
 
 **Bug Report or Improvement:**  
 To report a bug in a template or suggest an improvement to this repo simply go to issues and fill out the proper template.
