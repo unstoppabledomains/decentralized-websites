@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://unstoppabledomains.com/">
-    <img src="unstoppable-logo.svg" width="300" />
+    <img src="unstoppable-logo.svg" width="500" />
   </a>
 </p>
 <h1 align="center">
