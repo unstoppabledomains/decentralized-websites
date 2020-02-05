@@ -35,3 +35,8 @@ To report a bug in a template or suggest an improvement to this repo simply go t
 
 - [IPFS Homepage](https://ipfs.io/)
 - [IPFS Video Explaination](https://www.youtube.com/watch?v=5Uj6uR3fp-U)
+
+**Other Tools & Projects**
+
+- [Awesome IPFS](https://awesome.ipfs.io/)
+  - [Github Repo](https://github.com/ipfs/awesome-ipfs#awesome-ipfs-)

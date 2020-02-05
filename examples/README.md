@@ -13,11 +13,12 @@ In the `ud-static-templates` directory you will find all of the templates availa
 
 ## Using JS Frameworks
 
-Hosting a website on IPFS is slightly different than hosting it on a web server out in the cloud. Your website may require a little bit of tweaking in order to properly be served on the IPFS network.
-The important rules are:
-
-- All of the content for your website must be contained in one build folder, with an index.html file.
-- All links within your files should be relative links.
+> Hosting a website on IPFS is slightly different than hosting it on a web server out in the cloud. Your website may require a little bit of tweaking in order to properly be served on the IPFS network.
+>
+> The important rules are:
+>
+> - All of the content for your website must be contained in one build folder, with an index.html file.
+> - All links within your files should be relative links.
 
 Check out [this article](https://medium.com/pinata/how-to-easily-host-a-website-on-ipfs-9d842b5d6a01) by Matt Ober, CoFounder and CTO of Pinata
 
