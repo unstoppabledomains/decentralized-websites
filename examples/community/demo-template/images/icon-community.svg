@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon - community</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#3CE0F9" offset="0%"></stop>
+            <stop stop-color="#5262FA" offset="100%"></stop>
+        </linearGradient>
+        <path d="M66,6 L66,51 L42.9083269,51 L21,65.6055513 L21,51 L6,51 L6,6 L66,6 Z M60,12 L12,12 L12,45 L27,45 L27,54.3944487 L41.0916731,45 L60,45 L60,12 Z M24,30 L24,36 L18,36 L18,30 L24,30 Z M39,30 L39,36 L27,36 L27,30 L39,30 Z M24,18 L24,24 L18,24 L18,18 L24,18 Z M51,18 L51,24 L27,24 L27,18 L51,18 Z" id="path-2"></path>
+    </defs>
+    <g id="icon---community" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-4-Copy-5">
+            <rect id="Rectangle" x="0" y="0" width="72" height="72"></rect>
+            <g id="Shape">
+                <use fill="#4C47F7" xlink:href="#path-2"></use>
+                <use fill-opacity="0.78" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-1-1h24v23.524H-1z"/>
+        <g transform="translate(0 -.02)">
+            <ellipse cx="14" cy="13.723" fill="#96A0D1" rx="14" ry="13.723"/>
+            <path fill="#DDE1F4" fill-rule="nonzero" d="M11.433 20.012c-.453 0-.376-.168-.533-.591l-1.333-4.303 10.266-5.97"/>
+            <path fill="#F0F2FE" fill-rule="nonzero" d="M11.433 20.012c.35 0 .505-.157.7-.343L14 17.89l-2.328-1.375"/>
+            <path fill="#FFF" fill-rule="nonzero" d="M11.671 16.514l5.642 4.086c.644.348 1.109.168 1.27-.586l2.296-10.608c.235-.924-.36-1.343-.975-1.069L6.418 13.434c-.92.362-.915.865-.168 1.09l3.46 1.058 8.013-4.954c.378-.225.725-.104.44.144"/>
+        </g>
+    </g>
+</svg>

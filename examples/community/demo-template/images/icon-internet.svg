@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon - internet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#3CE0F9" offset="0%"></stop>
+            <stop stop-color="#5262FA" offset="100%"></stop>
+        </linearGradient>
+        <path d="M54,3 C62.2842712,3 69,9.71572875 69,18 C69,25.2566786 63.8469982,31.309809 57.0005524,32.6998335 L57,42 L66,42 L66,66 L42,66 L42,57 L30,57 L30,66 L6,66 L6,42 L15,42 L15,30 L6,30 L6,6 L30,6 L30,15 L39.3000144,15.0001968 C40.6897494,8.15337778 46.7430567,3 54,3 Z M24,48 L12,48 L12,60 L24,60 L24,48 Z M60,48 L48,48 L48,60 L60,60 L60,48 Z M57,51 L57,57 L51,57 L51,51 L57,51 Z M21,51 L21,57 L15,57 L15,51 L21,51 Z M39.3000856,21 L30,21 L30,30 L21,30 L21,42 L30,42 L30,51 L42,51 L42,42 L51.0001968,42 L51.0001968,32.6999856 C45.1227635,31.507012 40.4931959,26.8775376 39.3000856,21 Z M54,9 C49.0294373,9 45,13.0294373 45,18 C45,22.9705627 49.0294373,27 54,27 C58.9705627,27 63,22.9705627 63,18 C63,13.0294373 58.9705627,9 54,9 Z M24,12 L12,12 L12,24 L24,24 L24,12 Z M21,15 L21,21 L15,21 L15,15 L21,15 Z M57,15 L57,21 L51,21 L51,15 L57,15 Z" id="path-2"></path>
+    </defs>
+    <g id="icon---internet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-4-Copy-3">
+            <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="72" height="72"></rect>
+            <g id="Shape">
+                <use fill="#4C47F7" xlink:href="#path-2"></use>
+                <use fill-opacity="0.78" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

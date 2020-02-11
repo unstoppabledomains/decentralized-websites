@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon - domain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#3CE0F9" offset="0%"></stop>
+            <stop stop-color="#5262FA" offset="100%"></stop>
+        </linearGradient>
+        <path d="M66,6 L66,66 L6,66 L6,6 L66,6 Z M60,16.242 L48.5418526,27.7007881 L48.4034162,27.5620463 C50.0420382,29.9660858 51,32.8711709 51,36 C51,44.2842712 44.2842712,51 36,51 C32.9429854,51 30.0995617,50.0855088 27.7283711,48.5151686 L16.242,60 L60,60 L60,16.242 Z M55.7565,12 L12,12 L12,55.7565 L23.4848314,44.2716289 C21.9144912,41.9004383 21,39.0570146 21,36 C21,27.7157288 27.7157288,21 36,21 C39.1288291,21 42.0339142,21.9579618 44.4379537,23.5965838 L44.2992119,23.4581474 L55.7565,12 Z M36,27 C31.0294373,27 27,31.0294373 27,36 C27,40.9705627 31.0294373,45 36,45 C40.9705627,45 45,40.9705627 45,36 C45,31.0294373 40.9705627,27 36,27 Z" id="path-2"></path>
+    </defs>
+    <g id="icon---domain" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-4-Copy-2">
+            <g id="Shape">
+                <use fill="#4C47F7" xlink:href="#path-2"></use>
+                <use fill-opacity="0.78" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
