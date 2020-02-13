@@ -1,0 +1,487 @@
+/*--
+	Author: W3Layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+html,
+body {
+    margin: 0;
+    font-size: 100%;
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+input[type="search"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-size: 0.9em;
+    color: #fff;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.breadcrumb,
+ol {
+    margin-bottom: 0 !important;
+}
+
+/*--/banner --*/
+
+.main-banner {
+    background: url(../images/banner1.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+.banner-info {
+    padding-top: 5em;
+}
+
+.w3pvt-logo a {
+    display: initial;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    text-transform: uppercase;
+}
+
+/*--//banner --*/
+/*--/content --*/
+img.admin {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #dff0f738;
+    padding: 0.3em;
+    margin-bottom: 1em;
+}
+
+.inner-w3layouts-wrap h2,
+.head-w3ls {
+    color: #fff;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0em 0 1.5em 0;
+}
+
+.inner-w3layouts-wrap h4 {
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0.5em 0 3em 0;
+}
+
+
+/*--//content --*/
+/*--/tab-content --*/
+.tab-main {
+    padding: 40px 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    width: 80%;
+    text-align: center;
+}
+
+.inner-w3layouts-wrap {
+    margin: 0 auto;
+    width: 55%;
+    padding-top: 4em;
+    text-align: center;
+
+}
+
+.tab-main section {
+    display: none;
+}
+
+.tab-main input.w3layouts-sm {
+    display: none;
+}
+
+
+
+.tab-main label {
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #595a5a;
+    border: 2px solid #ffffff47;
+    border-radius: 4px;
+    background: #fff;
+    margin: 0 2px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tab-main span {
+    margin-right: 0.5em;
+}
+
+/*----*
+.tab-main label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+    opacity: 0;
+    display: none;
+}
+
+.tab-main label[for*='1']:before {
+    content: '\f1cb';
+}
+
+.tab-main label[for*='2']:before {
+    content: '\f17d';
+}
+
+.tab-main label[for*='3']:before {
+    content: '\f16c';
+}
+
+.tab-main label[for*='4']:before {
+    content: '\f171';
+}
+/*----*/
+.tab-main label:hover {
+    color: #ff4c4c;
+    cursor: pointer;
+}
+
+.tab-main input:checked + label {
+    color: #ff4c4c;
+    border: 2px solid #fff;
+    background: #fff;
+    /* border-top: 2px solid #FC427B; */
+    /* border-bottom: 1px solid #fff; */
+    border-radius: 4px;
+}
+
+.tab-main #tab1:checked ~ #content1,
+.tab-main #tab2:checked ~ #content2,
+.tab-main #tab3:checked ~ #content3,
+.tab-main #tab4:checked ~ #content4 {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    .tab-main label:before {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tab-main label {
+        padding: 15px;
+    }
+}
+
+/*--//tab-content --*/
+/*-- /gallery --*/
+h4.sub-title.two {
+    color: #fd0;
+}
+
+.gal-img {
+    padding: 0;
+}
+
+.gal-img img {
+    border-radious: 0px;
+}
+
+
+
+/*--//gallery--*/
+
+/*--//gallery--*/
+.contact-form .form-control input {
+    display: block;
+
+}
+
+form.contact-form {
+    margin-top: 2em;
+}
+
+
+.contact-form .form-control,
+.contact-form textarea {
+    padding: 1em 1em;
+    color: #495057;
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+.contact-form textarea {
+    min-height: 10em;
+    -webkit-appearance: none;
+    width: 100%;
+}
+
+.contact-form p {
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 0.85em;
+    text-align: left;
+}
+
+.contact-form button.btn {
+    background: #ff4c4c;
+    padding: 0.8em 3em;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    border-radius: 0px;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    border: none;
+}
+
+.contact-form button.btn:hover {
+    opacity: 0.8;
+}
+
+/* //contact form */
+
+.copy-w3layouts-right p {
+
+    letter-spacing: 2px;
+}
+
+.copy-w3layouts-right p a {
+    color: #fff;
+}
+
+.copy-w3layouts-right p a:hover {
+    opacity: 0.8;
+}
+
+.w3pvt_social_list li {
+    display: inline-block;
+}
+
+.w3pvt_social_list li a {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0.5em;
+    background: #fff;
+    display: inline-block;
+
+}
+
+.w3pvt_social_list li a span {
+    color: #333;
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0;
+    line-height: 2.5em;
+}
+
+
+/*--/responsive--*/
+@media(max-width:1024px) {
+    .tab-main {
+        padding: 40px 0;
+        width: 90%;
+    }
+}
+
+@media(max-width:991px) {
+    .popup {
+        width: 40%;
+    }
+}
+
+@media(max-width:800px) {
+    .inner-w3layouts-wrap {
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 3em;
+        text-align: center;
+    }
+
+    .banner-info {
+        padding-top: 3.5em;
+    }
+}
+
+@media(max-width:768px) {
+    .tab-main {
+        padding: 40px 0;
+        width: 92%;
+    }
+}
+
+@media(max-width:640px) {
+    .popup {
+        width: 40%;
+    }
+
+    .tab-main {
+        padding: 40px 0;
+        width: 95%;
+    }
+
+    .tab-main label {
+        padding: 10px 18px;
+    }
+}
+
+@media(max-width:480px) {
+
+    .inner-w3layouts-wrap h2,
+    .head-w3ls {
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        margin: 0em 0 1em 0;
+    }
+
+    .inner-w3layouts-wrap h4 {
+        font-size: 0.9em;
+        letter-spacing: 2px;
+        margin: 0.5em 0 2em 0;
+    }
+
+    .tab-main label {
+        padding: 10px 10px;
+    }
+
+    .tab-main span {
+        margin-right: 0.2em;
+    }
+}
+
+@media(max-width:414px) {
+    p {
+        font-size: 0.85em;
+
+    }
+
+    .w3pvt-logo a {
+        font-size: 0.9em;
+    }
+
+    .banner-info {
+        padding-top: 1.5em;
+    }
+
+    .tab-main {
+        padding: 22px 0;
+        width: 100%;
+    }
+
+    .tab-main label {
+        padding: 6px 7px;
+        font-size: 0.8em;
+    }
+
+    .contact-form textarea {
+        min-height: 8.5em;
+    }
+
+    img.admin {
+        padding: 0.3em;
+        margin-bottom: 1em;
+        width: 30%;
+    }
+
+    .inner-w3layouts-wrap {
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 2em;
+    }
+
+    form.contact-form {
+        margin-top: 2em;
+    }
+
+    .contact-form button.btn {
+        padding: 0.7em 2em;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}
+
+@media(max-width:384px) {}
+
+@media(max-width:375px) {}
+
+/*--//responsive--*/
