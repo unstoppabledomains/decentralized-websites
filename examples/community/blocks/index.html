@@ -240,23 +240,6 @@
       </div>
     </div>
   </main>
-  <style id="resize"></style>
-  <script type="text/javascript">
-    reSize()
-    window.addEventListener("resize", reSize)
-    function reSize() {
-      if (window.innerWidth < 460) {
-        let scale = window.innerWidth / 460
-        document.getElementById("resize").innerHTML = `
-        .content-box { transform: scale(${scale}); }
-        header { padding: 15px ${25 * scale}px 0 ${25 * scale}px; }
-        .header-box { width: ${window.innerWidth + 50 * scale}px; }
-        `
-      } else {
-        document.getElementById("resize").innerHTML = ""
-      }
-    }
-  </script>
 </body>
 
 </html>
