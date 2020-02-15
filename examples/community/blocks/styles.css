@@ -12,13 +12,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: Lato;
-  src: url("./assets/Lato-Black.ttf");
-  font-weight: 900;
-  font-style: normal;
-}
-
 a {
   all: unset;
   cursor: pointer;
