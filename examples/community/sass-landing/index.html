@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- website title -->
+  <title>My Sass company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}</style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/css/froala_blocks.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/css/froala_editor.pkgd.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/css/froala_style.min.css">
+</head>
+<body>
+
+<!-- navigation section -->
+<header data-block-type="headers" data-id="23">
+  <div class="container">
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav0">
+        <ul class="navbar-nav mr-auto ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://example.com">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://example.com">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://example.com">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://example.com">Team</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- hero section --> 
+<section class="fdb-block" data-block-type="contents" data-id="16" draggable="true">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-12 col-lg-6 col-xl-5">
+        <h1>ABC Sass company</h1>
+        <p class="lead mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+
+        <p><strong>Works in every browser:</strong></p>
+        <p class="h1 text-muted">
+          <svg class="svg-inline--fa fa-chrome fa-w-16 mr-3" aria-hidden="true" data-prefix="fab" data-icon="chrome" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M131.5 217.5L55.1 100.1c47.6-59.2 119-91.8 192-92.1 42.3-.3 85.5 10.5 124.8 33.2 43.4 25.2 76.4 61.4 97.4 103L264 133.4c-58.1-3.4-113.4 29.3-132.5 84.1zm32.9 38.5c0 46.2 37.4 83.6 83.6 83.6s83.6-37.4 83.6-83.6-37.4-83.6-83.6-83.6-83.6 37.3-83.6 83.6zm314.9-89.2L339.6 174c37.9 44.3 38.5 108.2 6.6 157.2L234.1 503.6c46.5 2.5 94.4-7.7 137.8-32.9 107.4-62 150.9-192 107.4-303.9zM133.7 303.6L40.4 120.1C14.9 159.1 0 205.9 0 256c0 124 90.8 226.7 209.5 244.9l63.7-124.8c-57.6 10.8-113.2-20.8-139.5-72.5z"></path></svg><!-- <i class="fab fa-chrome mr-3"></i> -->
+          <svg class="svg-inline--fa fa-safari fa-w-16 mr-3" aria-hidden="true" data-prefix="fab" data-icon="safari" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M236.9 256.8c0-9.1 6.6-17.7 16.3-17.7 8.9 0 17.4 6.4 17.4 16.1 0 9.1-6.4 17.7-16.1 17.7-9 0-17.6-6.7-17.6-16.1zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-26.6 0c0-122.3-99.1-221.4-221.4-221.4S34.6 133.7 34.6 256 133.7 477.4 256 477.4 477.4 378.3 477.4 256zm-72.5 96.6c0 3.6 13 10.2 16.3 12.2-27.4 41.5-69.8 71.4-117.9 83.3l-4.4-18.5c-.3-2.5-1.9-2.8-4.2-2.8-1.9 0-3 2.8-2.8 4.2l4.4 18.8c-13.3 2.8-26.8 4.2-40.4 4.2-36.3 0-72-10.2-103-29.1 1.7-2.8 12.2-18 12.2-20.2 0-1.9-1.7-3.6-3.6-3.6-3.9 0-12.2 16.6-14.7 19.9-41.8-27.7-72-70.6-83.6-119.6l19.1-4.2c2.2-.6 2.8-2.2 2.8-4.2 0-1.9-2.8-3-4.4-2.8L62 294.5c-2.5-12.7-3.9-25.5-3.9-38.5 0-37.1 10.5-73.6 30.2-104.9 2.8 1.7 16.1 10.8 18.3 10.8 1.9 0 3.6-1.4 3.6-3.3 0-3.9-14.7-11.3-18-13.6 28.2-41.2 71.1-70.9 119.8-81.9l4.2 18.5c.6 2.2 2.2 2.8 4.2 2.8s3-2.8 2.8-4.4L219 61.7c12.2-2.2 24.6-3.6 37.1-3.6 37.1 0 73.3 10.5 104.9 30.2-1.9 2.8-10.8 15.8-10.8 18 0 1.9 1.4 3.6 3.3 3.6 3.9 0 11.3-14.4 13.3-17.7 41 27.7 70.3 70 81.7 118.2l-15.5 3.3c-2.5.6-2.8 2.2-2.8 4.4 0 1.9 2.8 3 4.2 2.8l15.8-3.6c2.5 12.7 3.9 25.7 3.9 38.7 0 36.3-10 72-28.8 102.7-2.8-1.4-14.4-9.7-16.6-9.7-2.1 0-3.8 1.7-3.8 3.6zm-33.2-242.2c-13 12.2-134.2 123.7-137.6 129.5l-96.6 160.5c12.7-11.9 134.2-124 137.3-129.3l96.9-160.7z"></path></svg><!-- <i class="fab fa-safari mr-3"></i> -->
+          <svg class="svg-inline--fa fa-firefox fa-w-15 mr-3" aria-hidden="true" data-prefix="fab" data-icon="firefox" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512" data-fa-i2svg=""><path fill="currentColor" d="M478.1 235.3c-.7-4.5-1.4-7.1-1.4-7.1s-1.8 2-4.7 5.9c-.9-10.7-2.8-21.2-5.8-31.6-3.7-12.9-8.5-25.4-14.5-37.4-3.8-8-8.2-15.6-13.3-22.8-1.8-2.7-3.7-5.4-5.6-7.9-8.8-14.4-19-23.3-30.7-40-7.6-12.8-12.9-26.9-15.4-41.6-3.2 8.9-5.7 18-7.4 27.3-12.1-12.2-22.5-20.8-28.9-26.7C319.4 24.2 323 9.1 323 9.1S264.7 74.2 289.9 142c8.7 23 23.8 43.1 43.4 57.9 24.4 20.2 50.8 36 64.7 76.6-11.2-21.3-28.1-39.2-48.8-51.5 6.2 14.7 9.4 30.6 9.3 46.5 0 61-49.6 110.5-110.6 110.4-8.3 0-16.5-.9-24.5-2.8-9.5-1.8-18.7-4.9-27.4-9.3-12.9-7.8-24-18.1-32.8-30.3l-.2-.3 2 .7c4.6 1.6 9.2 2.8 14 3.7 18.7 4 38.3 1.7 55.6-6.6 17.5-9.7 28-16.9 36.6-14h.2c8.4 2.7 15-5.5 9-14-10.4-13.4-27.4-20-44.2-17-17.5 2.5-33.5 15-56.4 2.9-1.5-.8-2.9-1.6-4.3-2.5-1.6-.9 4.9 1.3 3.4.3-5-2.5-9.8-5.4-14.4-8.6-.3-.3 3.5 1.1 3.1.8-5.9-4-11-9.2-15-15.2-4.1-7.4-4.5-16.4-1-24.1 2.1-3.8 5.4-6.9 9.3-8.7 3 1.5 4.8 2.6 4.8 2.6s-1.3-2.5-2.1-3.8c.3-.1.5 0 .8-.2 2.6 1.1 8.3 4 11.4 5.8 2.1 1.1 3.8 2.7 5.2 4.7 0 0 1-.5.3-2.7-1.1-2.7-2.9-5-5.4-6.6h.2c2.3 1.2 4.5 2.6 6.6 4.1 1.9-4.4 2.8-9.2 2.6-14 .2-2.6-.2-5.3-1.1-7.8-.8-1.6.5-2.2 1.9-.5-.2-1.3-.7-2.5-1.2-3.7v-.1s.8-1.1 1.2-1.5c1-1 2.1-1.9 3.4-2.7 7.2-4.5 14.8-8.4 22.7-11.6 6.4-2.8 11.7-4.9 12.8-5.6 1.6-1 3.1-2.2 4.5-3.5 5.3-4.5 9-10.8 10.2-17.7.1-.9.2-1.8.3-2.8v-1.5c-.9-3.5-6.9-6.1-38.4-9.1-11.1-1.8-20-10.1-22.5-21.1v.1c-.4 1.1-.9 2.3-1.3 3.5.4-1.2.8-2.3 1.3-3.5v-.2c6-15.7 16.8-29.1 30.8-38.3.8-.7-3.2.2-2.4-.5 2.7-1.3 5.4-2.5 8.2-3.5 1.4-.6-6-3.4-12.6-2.7-4 .2-8 1.2-11.7 2.8 1.6-1.3 6.2-3.1 5.1-3.1-8.4 1.6-16.5 4.7-23.9 9 0-.8.1-1.5.5-2.2-5.9 2.5-11 6.5-15 11.5.1-.9.2-1.8.2-2.7-2.7 2-5.2 4.3-7.3 6.9l-.1.1c-17.4-6.7-36.3-8.3-54.6-4.7l-.2-.1h.2c-3.8-3.1-7.1-6.7-9.7-10.9l-.2.1-.4-.2c-1.2-1.8-2.4-3.8-3.7-6-.9-1.6-1.8-3.4-2.7-5.2 0-.1-.1-.2-.2-.2-.4 0-.6 1.7-.9 1.3v-.1c-3.2-8.3-4.7-17.2-4.4-26.2l-.2.1c-5.1 3.5-9 8.6-11.1 14.5-.9 2.1-1.6 3.3-2.2 4.5v-.5c.1-1.1.6-3.3.5-3.1-.1.2-.2.3-.3.4-1.5 1.7-2.9 3.7-3.9 5.8-.9 1.9-1.7 3.9-2.3 5.9-.1.3 0-.3 0-1s.1-2 0-1.7l-.3.7c-6.7 14.9-10.9 30.8-12.4 47.1-.4 2.8-.6 5.6-.5 8.3v.2c-4.8 5.2-9 11-12.7 17.1-12.1 20.4-21.1 42.5-26.8 65.6 4-8.8 8.8-17.2 14.3-25.1C5.5 228.5 0 257.4 0 286.6c1.8-8.6 4.2-17 7-25.3-1.7 34.5 4.9 68.9 19.4 100.3 19.4 43.5 51.6 80 92.3 104.7 16.6 11.2 34.7 19.9 53.8 25.8 2.5.9 5.1 1.8 7.7 2.7-.8-.3-1.6-.7-2.4-1 22.6 6.8 46.2 10.3 69.8 10.3 83.7 0 111.3-31.9 113.8-35 4.1-3.7 7.5-8.2 9.9-13.3 1.6-.7 3.2-1.4 4.9-2.1l1-.5 1.9-.9c12.6-5.9 24.5-13.4 35.3-22.1 16.3-11.7 27.9-28.7 32.9-48.1 3-7.1 3.1-15 .4-22.2.9-1.4 1.7-2.8 2.7-4.3 18-28.9 28.2-61.9 29.6-95.9v-2.8c0-7.3-.6-14.5-1.9-21.6z"></path></svg><!-- <i class="fab fa-firefox mr-3"></i> -->
+          <svg class="svg-inline--fa fa-edge fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="edge" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M25.714 228.163c.111-.162.23-.323.342-.485-.021.162-.045.323-.065.485h-.277zm460.572 15.508c0-44.032-7.754-84.465-28.801-122.405C416.498 47.879 343.912 8.001 258.893 8.001 118.962 7.724 40.617 113.214 26.056 227.679c42.429-61.312 117.073-121.376 220.375-124.966 0 0 109.666 0 99.419 104.957H169.997c6.369-37.386 18.554-58.986 34.339-78.926-75.048 34.893-121.85 96.096-120.742 188.315.83 71.448 50.124 144.836 120.743 171.976 83.357 31.847 192.776 7.2 240.132-21.324V363.307c-80.864 56.494-270.871 60.925-272.255-67.572h314.073v-52.064z"></path></svg><!-- <i class="fab fa-edge"></i> -->
+        </p>
+      </div>
+      <div class="col-12 col-md-8 m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0">
+        <img alt="image" class="img-fluid" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//draws/browsers.svg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- feature section --> 
+
+<section class="fdb-block" data-block-type="features" data-id="18" draggable="true">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12col-md-10 col-lg-8 text-center">
+        <h1>Amazing features</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-center text-center mt-5">
+      <div class="col-12 col-sm-6 col-md-5 col-lg-3">
+        <img alt="image" class="fdb-icon" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//icons/github.svg">
+        <h3><strong>Feature one longer Text</strong></h3>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-5 col-lg-3 pt-4 pt-sm-0">
+        <img alt="image" class="fdb-icon" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//icons/gift.svg">
+        <h3><strong>Feature two shorter</strong></h3>
+      </div>
+    </div>
+
+    <div class="row justify-content-center text-center mt-5 mt-md-4 pt-5">
+      <div class="col-12 col-md-10 col-lg-8">
+        <img alt="image" class="img-fluid" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//draws/social-media.svg">
+        <p><em>Coming this fall</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- testimonial section --> 
+
+<section class="fdb-block" data-block-type="testimonials" data-id="19" draggable="true">
+  <div class="container">
+    <div class="row pb-xl-5 text-center justify-content-center">
+      <div class="col-md-10 col-lg-7">
+        <h1>Testimonials</h1>
+      </div>
+    </div>
+
+    <div class="row mt-5 justify-content-center">
+      <div class="col-md-8 col-lg-4 col-xl-3 m-auto text-center">
+        <img alt="image" height="50" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//customers/intel.svg">
+        <p class="h3 mt-4">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia."</p>
+
+        <p class="h3 mt-4 mt-xl-5"><strong>Person Name</strong></p>
+        <p>Co-founder at Company</p>
+      </div>
+
+      <div class="col-md-8 col-lg-4 col-xl-3 pt-5 pt-lg-0 m-auto text-center">
+        <img alt="image" height="50" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//customers/apple.svg">
+        <p class="h3 mt-4">"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+
+        <p class="h3 mt-4 mt-xl-5"><strong>Person Name</strong></p>
+        <p>Co-founder at Company</p>
+      </div>
+
+      <div class="col-md-8 col-lg-4 col-xl-3 pt-5 pt-lg-0 m-auto text-center">
+        <img alt="image" height="50" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//customers/samsung.svg">
+        <p class="h3 mt-4">"A small river named Duden flows by their place and supplies it with the necessary regelialia."</p>
+
+        <p class="h3 mt-4 mt-xl-5"><strong>Person Name</strong></p>
+        <p>Co-founder at Company</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- pricing section --> 
+<section class="fdb-block fp-active" data-block-type="pricings" data-id="24" draggable="true">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h1>Pricing Plans</h1>
+      </div>
+    </div>
+
+    <table class="table text-center mt-5 d-none d-lg-table">
+      <tbody>
+        <tr>
+          <th scope="row" class="border-0"></th>
+          <td class="text-center border-0">
+            <h2 class="font-weight-light">Hobby</h2>
+            <p class="lead">$99</p>
+            <p><a href="https://www.froala.com" class="btn btn-outline-primary">Buy Now</a></p>
+          </td>
+          <td class="text-center border-0">
+            <h2 class="font-weight-light">Professional</h2>
+            <p class="lead">$399</p>
+            <p><a href="https://www.froala.com" class="btn btn-outline-primary">Buy Now</a></p>
+          </td>
+          <td class="text-center border-0">
+            <h2 class="font-weight-light">Business</h2>
+            <p class="lead">$899</p>
+            <p><a href="https://www.froala.com" class="btn btn-primary">Buy Now</a></p>
+          </td>
+          <td class="text-center border-0">
+            <h2 class="font-weight-light">Enterprise</h2>
+            <p class="lead">Call us</p>
+            <p><a href="https://www.froala.com" class="btn btn-outline-primary">Contact</a></p>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Support</th>
+          <td>3 months</td>
+          <td>6 months</td>
+          <td>12 months</td>
+          <td>Custom</td>
+        </tr>
+        <tr>
+          <th scope="row">Full source code</th>
+          <td>✓</td>
+          <td>✓</td>
+          <td>✓</td>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">SaaS / Subscription</th>
+          <td>✓</td>
+          <td>✓</td>
+          <td>✓</td>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Intranet</th>
+          <td></td>
+          <td>✓</td>
+          <td>✓</td>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Downloadable Software</th>
+          <td></td>
+          <td></td>
+          <td>✓</td>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Redistribute</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Custom code</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>✓</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="table text-center mt-5 d-table d-lg-none">
+      <tbody>
+        <tr>
+          <td class="text-center border-0" colspan="2">
+            <h2 class="font-weight-light">Hobby</h2>
+            <p class="h2">$99</p>
+            <p><a href="https://www.froala.com" class="btn btn-outline-primary">Buy Now</a></p>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Support</th>
+          <td>3 months</td>
+        </tr>
+        <tr>
+          <th scope="row">Full source code</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">SaaS / Subscription</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Intranet</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">Downloadable Software</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">Redistribute</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">Custom code</th>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="table text-center mt-5 d-table d-lg-none">
+      <tbody>
+        <tr>
+          <td class="text-center" colspan="2">
+            <h2 class="font-weight-light">Professional</h2>
+            <p class="h2">$399</p>
+            <p><a href="https://www.froala.com" class="btn btn-outline-primary">Buy Now</a></p>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Support</th>
+          <td>6 months</td>
+        </tr>
+        <tr>
+          <th scope="row">Full source code</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">SaaS / Subscription</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Intranet</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Downloadable Software</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">Redistribute</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">Custom code</th>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="table text-center mt-5 d-table d-lg-none">
+      <tbody>
+        <tr>
+          <td class="text-center" colspan="2">
+            <h2 class="font-weight-light">Business</h2>
+            <p class="h2">$899</p>
+            <p><a href="https://www.froala.com" class="btn btn-primary">Buy Now</a></p>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Support</th>
+          <td>12 months</td>
+        </tr>
+        <tr>
+          <th scope="row">Full source code</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">SaaS / Subscription</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Intranet</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Downloadable Software</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Redistribute</th>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">Custom code</th>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="table text-center mt-5 d-table d-lg-none">
+      <tbody>
+        <tr>
+          <td class="text-center" colspan="2">
+            <h2 class="font-weight-light">Enterprise</h2>
+            <p class="h2">Call us</p>
+            <p><a href="https://www.froala.com" class="btn btn-outline-primary">Contact</a></p>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Support</th>
+          <td>Custom</td>
+        </tr>
+        <tr>
+          <th scope="row">Full source code</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">SaaS / Subscription</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Intranet</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Downloadable Software</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Redistribute</th>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <th scope="row">Custom code</th>
+          <td>✓</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- call to action section --> 
+<section class="fdb-block" data-block-type="call_to_action" data-id="21" draggable="true">
+  <div class="container align-items-center justify-content-center d-flex">
+    <div class="row align-items-center text-left">
+      <div class="col-12 col-sm-6">
+        <img alt="image" class="img-fluid" src="https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//draws/sync2.svg">
+      </div>
+
+      <div class="col-12 col-lg-5 ml-auto pt-5 pt-lg-0">
+        <h1>Call to action</h1>
+        <p class="lead">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+        <p class="mt-4"><a href="https://example.com" class="btn btn-secondary">Call to Action</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact us section --> 
+<section class="fdb-block pt-0 fp-active" style="background-image: url(https://cdn.jsdelivr.net/gh/froala/design-blocks@2.0.1/dist/imgs//shapes/8.svg)" data-block-type="contacts" data-id="20" draggable="true">
+  <div class="bg-gray">
+    <div class="container">
+      <div class="row-100"></div>
+      <div class="row text-left">
+        <div class="col-8">
+          <h1>Contact Us</h1>
+          <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+      </div>
+      <div class="row-100"></div>
+    </div>
+  </div>
+  <div class="container bg-r">
+    <div class="row-100"></div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-5">
+        <h2>Call or email</h2>
+        <p class="text-large">Support, Sales, and Account Management services are currently available in English</p>
+
+        <p class="h3 mt-4 mt-lg-5">
+          <strong>Support</strong>
+        </p>
+        <p>
+          +800 3005 4300
+        </p>
+        <p>
+          <a href="https://example.com">Contact Support</a>
+        </p>
+        <p>
+          Our technical support is available by phone or email from 11am to 11pm BST, Monday through Friday.
+        </p>
+
+        <p class="h3 mt-4 mt-lg-5">
+          <strong>Sales</strong>
+        </p>
+        <p>
+          +800 3005 4300
+        </p>
+        <p>
+          <a href="https://example.com">Contact Sales</a>
+        </p>
+        <p>
+          Our technical support is available by phone or email from 11am to 11pm BST, Monday through Friday.
+        </p>
+
+        <p class="h3 mt-4 mt-lg-5">
+          <strong>General inquiries</strong>
+        </p>
+        <p>
+          <a href="https://example.com">hello@website.com</a>
+        </p>
+      </div>
+
+      <div class="col-12 col-md-6 ml-auto">
+        <h2>Drop us a line</h2>
+        <form>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Company Name">
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Phone">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Country">
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col">
+              <select class="form-control" required="">
+                  <option value="">Select Department</option>
+                  <option value="1">Support</option>
+                  <option value="2">Sales</option>
+                  <option value="3">Accounting</option>
+                </select>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?"></textarea>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer section --> 
+<footer class="fdb-block footer-large" data-block-type="footers" data-id="22">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h3>Company Name</h3>
+        <p>70 Bowman St.<br>South Windsor, CT 06074</p>
+        <p>USA</p>
+        <p>+13 827 312 5002</p>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col text-center">
+        <p class="lead">
+          <a href="https://example.com" class="mx-2"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter" aria-hidden="true"></i> --></a>
+          <a href="https://example.com" class="mx-2"><svg class="svg-inline--fa fa-facebook fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"></path></svg><!-- <i class="fab fa-facebook" aria-hidden="true"></i> --></a>
+          <a href="https://example.com" class="mx-2"><svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram" aria-hidden="true"></i> --></a>
+          <a href="https://example.com" class="mx-2"><svg class="svg-inline--fa fa-pinterest fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="pinterest" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"></path></svg><!-- <i class="fab fa-pinterest" aria-hidden="true"></i> --></a>
+          <a href="https://example.com" class="mx-2"><svg class="svg-inline--fa fa-google fa-w-16" aria-hidden="true" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" data-fa-i2svg=""><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"></path></svg><!-- <i class="fab fa-google" aria-hidden="true"></i> --></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/js/froala_editor.pkgd.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    
+</body>
+</html>
