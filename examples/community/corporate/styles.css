@@ -1,0 +1,328 @@
+@font-face {
+  font-family: Lato;
+  src: url("./assets/Lato-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Lato;
+  src: url("./assets/Lato-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Lato;
+  src: url("./assets/Lato-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root{
+  --main-bg-color: #3e85d6;
+}
+
+html {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  margin: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+  /* white-space: pre-wrap; */
+}
+
+div {
+  display: flex;
+  margin: 0;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 6px;
+  transition-duration: 0.3s;
+  padding: 0px 32px;
+}
+
+.Root {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  min-height: 50vh;
+  width: 100vw;
+}
+
+.Header-Wrapper {
+  background-color: var(--main-bg-color);
+  overflow: hidden;
+  height: 120px;
+}
+
+.Header-List {
+  overflow: hidden;
+  display: inline-flex;
+  flex-direction: row;
+  height: inherit;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.Header-Bar-Item {
+  max-height: 120px;
+  padding-right: 10px;
+}
+
+.Finance-Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.Financial-Content {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 28px;
+}
+
+.Profile-Name {
+  font-family: Lato;
+  font-size: 58px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29293e;
+  margin-bottom: 0px;
+}
+
+.Profile-Title {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29293e;
+}
+
+.Data-Title {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29293e;
+}
+
+
+.Ticker-Container {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.Ticker-BTN {
+  background-color: #229458;
+  height: 60px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-top: 9px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.Ticker-BTN:hover {
+  background-color: #0304A4;
+  color: #eeeeee;
+}
+
+.Bio-Content {
+  opacity: 0.8;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #29293e;
+}
+
+.data-table {
+  opacity: 0.8;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #898284;
+}
+
+.year-header {
+  border-top:1px solid #838383;
+  border-bottom:1px solid #838383;
+  opacity: 0.8;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  width: 100%;
+  letter-spacing: normal;
+  color: #29293e;
+}
+
+.quarter {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  opacity: 0.8;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #231421;
+}
+
+.documents {
+  list-style-type: circle;
+  margin: 0;
+  opacity: 0.8;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #FF0000;
+}
+
+.Image-Container {
+  flex: 2;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-position: center right;
+}
+
+.Stock-Chart {
+  display: flex;
+  flex: 2;
+  margin: 0;
+  padding: 0;
+
+  max-width: 100%;
+}
+
+.Footer-Wrapper {
+  background-color: var(--main-bg-color);
+  text-align: center;
+  padding-top: 10px;
+  bottom: 0;
+  position: absolute;
+  height: 30px;
+  width: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.Footer-Content {
+  opacity: 0.8;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #29293e;
+  width: 100%;
+  text-align:center;
+}
+
+
+/* SocialIcons */
+
+@media only screen and (max-width: 600px) {
+  .h1 {
+    font-size: 8px;
+  }
+  .Root {
+    flex-direction: column-reverse;
+    flex: 1 1 auto;
+  }
+  .Financial-Content {
+    flex: 1 1 auto;
+    padding: 24px;
+  }
+  .Ticker-Container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .Ticker-BTN {
+    width: 100%;
+    margin-top: 12px;
+  }
+  .Image-Container {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .Header-Bar {
+    flex: 1 1 auto;
+    width: 100%;
+    height: 8%;
+    min-height: 60px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  li {
+    display: inline;
+  }
+
+  .Header-Bar-Item {
+    width: 20%;
+  }
+}
