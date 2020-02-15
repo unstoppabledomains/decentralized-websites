@@ -223,3 +223,18 @@ main {
 .content-image-full > div:first-child {
   flex: 1;
 }
+
+@media only screen and (max-width: 395px) {
+  .header-logo { 
+    margin-left: 0; 
+  }
+  .header-social { 
+    padding-right: 0; 
+  }
+  header { 
+    padding-left: 5px; padding-right: 5px; 
+  }
+  .header-box { 
+    width: calc(100% - 10px); 
+  }
+}
