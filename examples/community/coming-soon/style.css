@@ -65,6 +65,7 @@ body{
 	color: #fff;
 	font-size: 2em;
 	font-weight: 400;
+	text-shadow: 2px 2px #60616526;
 }
 .soon h1 {
 	text-align: center;
@@ -72,6 +73,7 @@ body{
 	font-size: 3em;
 	font-weight: 400;
 	margin-top: 15px;
+    text-shadow: 2px 2px #3c859487;
 }
 .soon p{
 	color: #fff;
