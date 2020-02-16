@@ -13,4 +13,10 @@ Also contains a small paragraph to prompt the visitor to register their own
 .crypto domain (_NOTE:_ this link contains the template author's referral
 code. You may change or remove the code as you see fit).
 
+## For advanced template customization
+
+Template SASS source code can be found at a seperate repository:
+
+https://github.com/zzzaim/personal-minimalist-template
+
 ![screenshot](screenshot.png)
