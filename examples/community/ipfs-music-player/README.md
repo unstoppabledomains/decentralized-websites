@@ -36,7 +36,7 @@ Deploy it at `pinata.cloud` using folder upload! More instructions are found [he
 
 ## Want more features?
 
-Connect with me and my team at [my website](https://caseyjkey.com/).
+Connect with us [here](https://caseyjkey.com/)!
 
 ## Learn more
 
