@@ -1,0 +1,55 @@
+#player {
+	position: absolute;
+	bottom: 10px;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	left: 0;
+	right: 0;
+}
+
+.jp-title {
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}
+
+.jp-title ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.jp-gui {
+	position: relative;
+	background: #f34927;
+	background: -moz-linear-gradient(top,  #f34927 0%, #dd3311 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f34927), color-stop(100%,#dd3311));
+	background: -webkit-linear-gradient(top,  #f34927 0%,#dd3311 100%);
+	background: -o-linear-gradient(top,  #f34927 0%,#dd3311 100%);
+	background: -ms-linear-gradient(top,  #f34927 0%,#dd3311 100%);
+	background: linear-gradient(to bottom,  #f34927 0%,#dd3311 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34927', endColorstr='#dd3311',GradientType=0 );
+	-webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .1);
+    box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.jp-jplayer,.jp-audio {
+    width: 420px;
+    margin: 50px auto;
+}
+
+.jp-controls {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "FontAwesome";
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
+
+.jp-controls li {
+    display: inline;
+}
