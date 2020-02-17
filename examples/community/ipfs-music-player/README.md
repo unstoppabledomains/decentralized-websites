@@ -1,6 +1,7 @@
 ## IPFS Music Player Template
 
 Join the decentralized web with this music player template!
+View a demo of this template [here](https://gateway.pinata.cloud/ipfs/QmV1zgG2ZCXU7pTgFfGRde8CJnYx4mfNpPRC6zTTMjPA1K/)!
 
 ## Making it your own
 ### Edit the source
