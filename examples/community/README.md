@@ -2,7 +2,7 @@
 
 | Author | Template | Available In Builder (y/n) |
 | ------ | -------- | -------------------------- |
-|        |          |                            |
+|    caseykey    |    ipfs-music-player      |             n               |
 
 ## Submitting A Template
 
