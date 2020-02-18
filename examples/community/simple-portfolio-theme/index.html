@@ -15,7 +15,7 @@
   </head>
 
   <body>
-	<div class="menu">
+	<div class="menu" id="mainmenu">
 		<div class="menu-wrap">
 			<div class="avatar flex-align-center">
 				<a href="#home">
@@ -139,6 +139,7 @@
 				</a>					
 			</div>
 		</div>
+		<div id="menuToggle"><i class="glyphicon glyphicon-align-justify"></i></div>
 	</div>
 	
 	<section id="home" name="home">
@@ -147,20 +148,14 @@
 		<div class="container"
 		 style=	"
 					background: url(./assets/img/header-bg.jpg) no-repeat center top;
-					background-attachment: relative;
-					background-position: center center;	
-					margin-top: -10px;
-					padding-top:20px;
-					margin-left: 0px;
-					text-align:center;					
-					min-height: 700px;
-					width: 85%;
+					background-size: cover;
+					background-position: center center;
 				">
 			<div class="row">
 				<!-- update title & subtitle text -->
 				<h1 style="color: #FFFFFF">THIS IS YOUR PAGE</h1>
 				<br>
-				<h3>Just a simple, smooth and responsive template.</h3>
+				<h3 style="color: #FFFFFF">Just a simple, smooth and responsive template.</h3>
 				<br>
 				<br>
 			</div>
@@ -293,5 +288,6 @@
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/menu.js"></script>
 </body>
 </html>
