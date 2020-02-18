@@ -84,7 +84,7 @@ ol {
 }
 
 .banner-info {
-    padding-top: 5em;
+    padding-top: 4em;
 }
 
 .w3pvt-logo a {
@@ -130,11 +130,29 @@ img.admin {
     margin: 0.5em 0 3em 0;
 }
 
+.inner-w3layouts-wrap h2,
+.head-w3ls {
+    color: #fff;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0em 0 1.5em 0;
+}
+
+.inner-w3layouts-wrap h4 {
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+    margin: 0.5em 0 3em 0;
+}
 
 /*--//content --*/
 /*--/tab-content --*/
 .tab-main {
-    padding: 40px 0;
+    padding: 20px 0;
     border: none;
     background: transparent;
     box-shadow: none;
@@ -146,6 +164,13 @@ img.admin {
     margin: 0 auto;
     width: 55%;
     padding-top: 4em;
+    text-align: center;
+
+}
+
+.inner-w3layouts-wrap-social {
+    margin: 0 auto;
+    width: 55%;
     text-align: center;
 
 }
@@ -317,7 +342,7 @@ form.contact-form {
 /* //contact form */
 
 .copy-w3layouts-right p {
-
+    margin-top: 10px;
     letter-spacing: 2px;
 }
 
@@ -358,7 +383,7 @@ form.contact-form {
 /*--/responsive--*/
 @media(max-width:1024px) {
     .tab-main {
-        padding: 40px 0;
+        padding: 20px 0;
         width: 90%;
     }
 }
@@ -377,6 +402,12 @@ form.contact-form {
         text-align: center;
     }
 
+    .inner-w3layouts-wrap-social {
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+
     .banner-info {
         padding-top: 3.5em;
     }
@@ -384,7 +415,7 @@ form.contact-form {
 
 @media(max-width:768px) {
     .tab-main {
-        padding: 40px 0;
+        padding: 20px 0;
         width: 92%;
     }
 }
@@ -395,7 +426,7 @@ form.contact-form {
     }
 
     .tab-main {
-        padding: 40px 0;
+        padding: 20px 0;
         width: 95%;
     }
 
@@ -414,6 +445,19 @@ form.contact-form {
     }
 
     .inner-w3layouts-wrap h4 {
+        font-size: 0.9em;
+        letter-spacing: 2px;
+        margin: 0.5em 0 2em 0;
+    }
+
+    .inner-w3layouts-wrap-social h2,
+    .head-w3ls {
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        margin: 0em 0 1em 0;
+    }
+
+    .inner-w3layouts-wrap-social h4 {
         font-size: 0.9em;
         letter-spacing: 2px;
         margin: 0.5em 0 2em 0;
@@ -468,6 +512,11 @@ form.contact-form {
         padding-top: 2em;
     }
 
+    .inner-w3layouts-wrap {
+        margin: 0 auto;
+        width: 90%;
+    }
+
     form.contact-form {
         margin-top: 2em;
     }
@@ -484,3 +533,14 @@ form.contact-form {
 @media(max-width:375px) {}
 
 /*--//responsive--*/
+
+.Social-Container {
+    margin-top: -10px;
+    display: flex;
+    text-align: center;
+  }
+  
+  .Social-Logo {
+    margin: 8px 9px;
+  }
+  
