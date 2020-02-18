@@ -1,9 +1,10 @@
 # IPFS Community Templates
 
-| Author        | Template       | Available In Builder (y/n) |
-| ------------- | -------------- | -------------------------- |
-| @aranhaagency | stellar        | n (pending)                |
-| @aranhaagency | stellar-simple | n (pending)                |
+| Author        | Template            | Available In Builder (y/n) |
+| ------------- | ------------------- | -------------------------- |
+| @aranhaagency | stellar             | n (pending)                |
+| @aranhaagency | stellar-simple      | n (pending)                |
+| @zzzaim       | personal-minimalist | n (pending)                |
 
 ## Submitting A Template
 
