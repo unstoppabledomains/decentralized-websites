@@ -19,4 +19,4 @@ Template SASS source code can be found at a seperate repository:
 
 https://github.com/zzzaim/personal-minimalist-template
 
-![screenshot](screenshot.png)
+![screenshot](./assets/screenshot.png)
