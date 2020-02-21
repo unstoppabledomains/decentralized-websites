@@ -6,14 +6,14 @@ import AudioPlayer from './AudioPlayer'
 import { FaCode } from 'react-icons/fa'
 
 // Here is an example of importing a song and its cover art
-import albumCover from "./media/vultures.png";
-import Vultures from './media/Vultures.mp3';
+import albumCover from "./media/summer.jpg";
+import Vultures from './media/summer.mp3';
 
 function App() {
   let media = {
       // Here you can change your song's title, the artist, and set sources
-      title: 'Vultures',
-      artist: 'Pervsydell',
+      title: 'Summer',
+      artist: 'Bensound.com',
       sources: {
         // Set source by importing the music file via relative path
         // Supported formats: mp3, m4a, oga, flac, wav, flv, and more!

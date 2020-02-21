@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // We almost just want this to be passed in a image object or url and then send out an http request to 
 // go retreve and render. In the encap player component. 
-function AlbumArt({ image, width, height }) {
+function AlbumArt({ image }) {
 
     const [centerX, setCenterX] = useState(window.innerWidth / 2);
     const [centerY, setCenterY] = useState((window.innerHeight / 2) - 75);
