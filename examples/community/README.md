@@ -2,7 +2,10 @@
 
 | Author | Template | Available In Builder (y/n) |
 | ------ | -------- | -------------------------- |
-|    caseykey    |    ipfs-music-player      |             n               |
+| @aranhaagency | stellar             | n (pending)                |
+| @aranhaagency | stellar-simple      | n (pending)                |
+| @caseykey | ipfs-music-player | n (pending)                      |
+| @zzzaim       | personal-minimalist | n (pending)                |
 
 ## Submitting A Template
 
