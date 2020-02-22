@@ -57,6 +57,18 @@ button {
   padding: 0px 32px;
 }
 
+.page-load-animation-fast {
+  animation:opac .8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.page-load-animation-slow {
+  animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
+.page-load-animation-none {
+  animation:opac 0s}@keyframes opac{from{opacity:0} to{opacity:1}
+}
+
 .Root {
   display: flex;
   flex-direction: row;
