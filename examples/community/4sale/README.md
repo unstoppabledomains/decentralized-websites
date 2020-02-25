@@ -6,6 +6,6 @@ A short and simple for-sale lander page for your .crypto domain.
 - Add any additional details/notes about the domain or process
 - Can add a link to your Telegram (in case a potential buyer may want to reach out to you)
 
-You're also able to tweak parts the color scheme to your liking.
+You're also able to tweak parts the color scheme if preferred.
 
 ![screenshot](assets/screenshot-desktop.png)
