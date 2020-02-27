@@ -1,0 +1,582 @@
+/*  
+
+Brownie Template
+
+http://www.templatemo.com/preview/templatemo_440_brownie
+
+COLOR CODES
+  Black #1f1d1a
+  Light Gray #929292
+  Dark Gray #2a2a2a
+  Brown #865701, rgb(134,87,1)
+  Gold #b28601, rgb(178,134,1)
+  
+TABLE OF CONTENT
+  1. Universal Styles
+  2. Header & Menu Styles
+  3. Home Styles
+  4. About & Services Styles
+  5. Contact & Footer Styles
+  6. jCarousel
+  7. Media Queries
+--------------------------------------*/
+
+/* 1. Universal Styles
+--------------------------------------*/
+* { font-family: 'Open Sans', sans-serif; }
+body { background: url('../images/body-bg.png') repeat; }
+h1, h2, h3 { text-transform: uppercase; }
+h2 {
+  margin-top: 0;
+  width: 100%;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0;
+}
+a:hover, a:focus { 
+  color: #b28601;
+  text-decoration: none; 
+}
+p { color: #929292; }
+ul { margin: 0; }
+
+.blue {
+	color: #6BE;
+}
+
+.green {
+	color: #6E6;
+}
+
+.col-md-6,
+.col-lg-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.margin-top-15 { margin-top: 15px; }
+.margin-top-30 { margin-top: 30px; }
+.padding-30 { padding: 30px; }
+.templatemo-section-title { display: block; }
+.templatemo-home-image, 
+.templatemo-image-overlay,
+.templatemo-black-bg {
+   border-radius: 30px;
+   width: 100%;
+}
+.templatemo-black-bg,
+.templatemo-content-box {
+  width: 523px;
+  height: 523px;
+}
+.templatemo-content-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+      -ms-flex-direction:column;
+          flex-direction:column;
+          -webkit-box-align: start;
+          -webkit-align-items: flex-start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;  
+  padding: 50px;
+}
+/* IE fix */
+.templatemo-flex-item-ie-fix,
+.templatemo-content-box > * {
+  width: 100%;
+}
+.templatemo-flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.templatemo-black-bg {
+  /*background: url('../images/round-rectangle.png') no-repeat;*/
+  background-position: center;
+  background-size: contain;
+}
+.templatemo-brown-rectangle-bg {
+  border: 1px solid #865701;
+  border-radius: 30px;
+  width: 80%;
+  height: 80%;
+}
+.templatemo-brown { color: #865701; }
+.templatemo-gold { color: #b28601; }
+.templatemo-btn {
+  background: #865701;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+.templatemo-btn:hover, .templatemo-btn:focus {
+  background: #b28601;
+  color: white;
+}
+.templatemo-position-relative { position: relative; }
+
+/* 2. Header & Menu Styles
+--------------------------------------*/
+.templatemo-site-header {
+  background: url('../images/header-bg.png') repeat-x;
+  border-bottom: 1px solid #865701;
+  height: 82px; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+.templatemo-site-header.sticky { height: 47px; }
+.templatemo-site-header h1 { 
+  font-size: 60px;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease; 
+}
+.templatemo-site-header.sticky h1 { font-size: 34px; }
+.templatemo-site-name {
+  font-family: Georgia, Times, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+.templatemo-site-name span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
+.templatemo-site-name span:first-child { font-size: 20px; }
+.templatemo-site-header .templatemo-nav {
+  position: absolute;
+  bottom: 14px;
+  right: 0;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+.templatemo-site-header.sticky .templatemo-nav { bottom: 6px; }
+.ie11 .templatemo-site-header.sticky .templatemo-nav,
+.ie10 .templatemo-site-header.sticky .templatemo-nav {
+  bottom: 7px;
+}
+
+/*
+https://stackoverflow.com/questions/952861/targeting-only-firefox-with-css/953491#953491
+*/
+@-moz-document url-prefix() { 
+    .templatemo-site-header .templatemo-nav {
+      bottom: 16px;
+      -webkit-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+    }
+    .templatemo-site-header.sticky .templatemo-nav { bottom: 8px; }
+}
+.templatemo-nav ul li {
+  float: left;
+  list-style: none;
+}
+.templatemo-nav ul li a {
+  padding: 15px 20px;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+.templatemo-site-header.sticky .templatemo-nav ul li a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.templatemo-nav ul li.active a {
+  background: url('../images/body-bg.png');
+  border-left: 1px solid #865701;
+  border-top: 1px solid #865701;
+  border-right: 1px solid #865701;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.templatemo-nav ul li a { color: #865701; }
+#responsive-menu ul li:hover a, 
+#responsive-menu ul li.active a,
+.templatemo-nav li:hover a, 
+.templatemo-nav li.active a {
+  color: #b28601;
+}
+.templatemo-nav li:hover a, 
+.templatemo-nav li.active a,
+a:focus {
+  text-decoration: none;
+}
+#responsive-menu {
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: rgba(116, 106, 64, 0.4);
+  position: fixed;
+  z-index: 5500;
+  right: -1500px;
+  display: none;
+  overflow: auto;
+}
+#responsive-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#responsive-menu ul li {
+  display: block;
+  margin-bottom: 2px;
+}
+#responsive-menu ul li a {
+  padding: 12px 18px;
+  background-color: #1f1d1a;
+  color: #865701;
+  display: block;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  text-transform: uppercase;
+}
+#responsive-menu ul li a i { margin-right: 15px; }
+a#mobile_menu {
+  font-size: 24px;
+  background-color: rgba(178,134,1, 0.8);
+  border-radius: 10px;
+  color: #1f1d1a;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 5500;
+}
+#responsive-menu ul li a:hover,
+#responsive-menu ul li.active a {
+  background: #333;
+  text-decoration: none;
+}
+
+/* 3. Home Styles
+--------------------------------------*/
+#home { padding-top: 197px; }
+.templatemo-home-image-container {
+  display: inline-block;
+  position: relative;
+}
+.templatemo-image-overlay {
+  background: rgba(51,51,51,0.9); /* OLD - iOS 6-, Safari 3.1-6 */
+  cursor: pointer;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;  
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          -webkit-box-pack: center;
+          justify-content: center;
+  
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          -webkit-box-align: center;
+          align-items: center;
+
+  -webkit-box-orient: vertical;  
+    -webkit-box-pack: center;
+       -ms-flex-pack: center;
+    
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.templatemo-image-overlay:hover {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+.templatemo-search-icon {
+  background: #865701;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+.templatemo-info-btn {
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 150px;
+}
+
+/* 4. About & Services Styles
+--------------------------------------*/
+.templatemo-team-member-container {
+  max-width: 250px;
+  margin: 0 auto;
+}
+.tm-team-member-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.templatemo-member-img-container {
+  display: inline-block;
+  position: relative;
+}
+.templatemo-img-frame { position: absolute; }
+
+.templatemo-service-image {
+  display: block;
+  float: left;
+}
+.templatemo-service-container { margin-top: 15px; }
+.templatemo-service-content { margin-left: 90px; }
+h3.templatemo-service-title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+/* 5. Contact & Footer Styles
+-------------------------------------*/
+form { width: 430px; }
+.form-control {
+  background: #1f1d1a;
+  border: 1px solid #865701;
+  border-radius: 10px;
+  color: #b28601;
+}
+.form-control:focus { border: 1px solid #b28601; }
+.templatemo-send-btn {
+  background: #774d01;
+  color: #C5A554;
+}
+/* http://css-tricks.com/snippets/css/style-placeholder-text/ */
+.form-control::-webkit-input-placeholder { color: #b28601; }
+.form-control:-moz-placeholder { color: #b28601; } /* Firefox 18- */
+.form-control::-moz-placeholder { color: #b28601; } /* Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #b28601; }
+
+.templatemo-social-icons-img { display: none; }
+.templatemo-social-icon { 
+  display: inline-block;
+  width: 52px;
+  height: 44px; 
+}
+#facebook { background: url('../images/social-icons.png') -5px 0; }
+#twitter { background: url('../images/social-icons.png') -59px 0; }
+#google { background: url('../images/social-icons.png') -113px 0; }
+#vimeo { background: url('../images/social-icons.png') -167px 0; }
+#flickr { background: url('../images/social-icons.png') -220px 0; }
+footer { padding-bottom: 50px; }
+.templatemo-copyright-container { padding-left: 30px; }
+
+/* 6. jCarousel http://sorgalla.com/jcarousel 
+---------------------------------------------*/
+.jcarousel-wrapper { position: relative; }
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;    
+    overflow: hidden;
+}
+.templatemo-team .jcarousel { width: 250px; }
+.templatemo-products .jcarousel { width: 275px; }
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+
+.templatemo-team .jcarousel-control-prev { left: 0; }
+.templatemo-team .jcarousel-control-next { right: 0; }
+.templatemo-products .jcarousel-control-prev { left: -50px; }
+.templatemo-products .jcarousel-control-next { right: -50px; }
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: 0;
+    cursor: default;
+}
+
+.jcarousel-control-prev, .jcarousel-control-next {
+  position: absolute;  
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #b28601;
+  color: #000;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000;
+  font: 24px/27px Arial, sans-serif;
+  border-radius: 30px;
+  box-shadow: 0 0 2px #999;
+}
+.templatemo-team .jcarousel-control-prev, 
+.templatemo-team .jcarousel-control-next {
+  top: 55px;
+}
+.templatemo-products .jcarousel-control-prev,
+.templatemo-products .jcarousel-control-next {
+  top: 110px;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-prev:focus,
+.jcarousel-control-next:hover,
+.jcarousel-control-next:focus {
+  color: #865701;
+}
+.templatemo-product-img { margin-top: 30px; }
+
+/* 7. Media Queries
+--------------------------------------*/
+@media screen and (max-width: 1199px) {
+  .templatemo-black-bg, 
+  .templatemo-content-box {
+    width: 480px;
+    height: 523px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .templatemo-site-header { height: 48px; }
+  .templatemo-site-header h1 { font-size: 35px; }
+  .templatemo-site-header .templatemo-nav { 
+    right: 10px;
+    bottom: 8px;
+  }
+  /*https://stackoverflow.com/questions/952861/targeting-only-firefox-with-css/953491#953491*/
+  @-moz-document url-prefix() {
+      .templatemo-site-header .templatemo-nav { 
+        bottom: 11px;
+      }
+  }
+  .ie11 .templatemo-site-header .templatemo-nav,
+  .ie10 .templatemo-site-header .templatemo-nav {
+    bottom: 9px;
+  }
+  .ie11 .templatemo-site-header.sticky .templatemo-nav {
+    bottom: 7px;
+  }
+
+  .templatemo-nav ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #home { padding-top: 100px; }
+  .templatemo-black-bg, 
+  .templatemo-content-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .templatemo-content-box {
+    height: auto;
+    padding: 15px;
+  }
+  .templatemo-section { margin-top: 50px; }
+}
+
+@media screen and (max-width: 767px) {
+  .templatemo-site-header { position: static; }
+  .templatemo-nav { bottom: -6px; }
+  #home { padding-top: 30px; }
+  .templatemo-black-bg,
+  .templatemo-content-box {
+    width: 98%;
+    height: auto;
+  }
+  .templatemo-black-bg {
+    background: #1B1B1B;
+    border: 1px solid #865701;
+    border-radius: 30px;
+    padding: 30px;
+  }
+  .templatemo-brown-rectangle-bg {
+    width: 100%;
+    padding: 30px;
+  }
+  .templatemo-second-box { margin-top: 50px; }
+  .templatemo-service-container > * { text-align: center; }
+  .templatemo-service-image {
+    float: none;
+    margin: 20px auto 10px auto;
+  }
+  .templatemo-service-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .templatemo-copyright-container { padding-left: 0; }
+}
+
+@media screen and (max-width: 400px) {
+  .templatemo-black-bg { padding: 15px; }
+  .templatemo-brown-rectangle-bg { padding: 5px; }
+  .templatemo-products .jcarousel-control-prev { left: 0; }
+  .templatemo-products .jcarousel-control-next { right: 0; }
+  .templatemo-product-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .templatemo-product-img {
+    margin-top: 20px;
+    width: 75%;
+  }
+}
