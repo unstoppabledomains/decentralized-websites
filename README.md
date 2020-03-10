@@ -53,3 +53,4 @@ To report a bug in a template or suggest an improvement to this repo simply go t
 - [Awesome IPFS](https://awesome.ipfs.io/)
   - [Github Repo](https://github.com/ipfs/awesome-ipfs#awesome-ipfs-)
 - [Pinata - IPFS pinning service](https://pinata.cloud/)
+- [3Box - decentralized user data storage system](https://3box.io/)
