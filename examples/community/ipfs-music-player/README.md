@@ -1,7 +1,7 @@
 ## IPFS Music Player Template
 
 Join the decentralized web with this music player template!
-View a demo of this template [here](https://gateway.pinata.cloud/ipfs/QmV1zgG2ZCXU7pTgFfGRde8CJnYx4mfNpPRC6zTTMjPA1K/)!
+View a demo of this template [here](https://gateway.pinata.cloud/ipfs/QmZ7qCpjJAE5jDiNariUMAb6phMVWJiPEyvAJdJ4vWpuAg/)!
 
 ## Making it your own
 ### Edit the source
@@ -26,12 +26,14 @@ You will also see any lint errors in the console.
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 #### 2. `pinata.cloud`
 
-Deploy it at `pinata.cloud` using folder upload! More instructions are found [here](https://medium.com/pinata/how-to-easily-host-a-website-on-ipfs-9d842b5d6a01).
+Deploy it at `pinata.cloud` using [folder upload](https://pinata.cloud/pinataupload)! 
+Under the **Upload Directory**, click browse and select the `build` folder.
+After the upload is complete, go to the **Pin Explorer** located in the upper right corner.
+Here, you can view your unstoppable website by clicking the link found below **IPFS Hash**. 
 
 
 ## Want more features?
