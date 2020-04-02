@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<!--
+	@incryptin - thebasics.crypto
+    
+    Thanks to @Iowaska - wetgecko.crypto
+-->
+
+<html>
+    <head>
+
+        <meta charset="utf-8" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+<script type="text/javascript">
+	window.addEventListener('click', async () => {
+		if (window.ethereum) {
+			window.web3 = new Web3(ethereum);
+			try {
+				await ethereum.enable();
+				initPayButton()
+			} catch (err) {
+				$('#status').html('User denied account access', err)
+			}
+		} else if (window.web3) {
+			window.web3 = new Web3(web3.currentProvider)
+			initPayButton()
+		} else {
+            $('#status').html('You need to install <a href=“https://metamask.io“>MetaMask </a> to use this feature.  <a href=“https://metamask.io“>https://metamask.io</a>')
+		}
+	})
+
+	const initPayButton = () => {
+		$('.tip-button').click(() => {
+			// paymentAddress is where funds will be sent to
+			const paymentAddress = '0xd4ac79FeD95Aa61e07C04AaDAcCEA732F55e12fA' // enter your ETH address here
+			const amountEth = 0.1 // enter the amount of ETH
+
+			web3.eth.sendTransaction({
+				to: paymentAddress,
+				value: web3.toWei(amountEth, 'ether')
+			}, (err, transactionId) => {
+				if (err) {
+					console.log('Payment failed', err)
+					$('#status').html('Payment failed')
+				} else {
+					console.log('Payment successful', transactionId)
+					$('#status').html('Payment successful')
+				}
+			})
+		})
+	}
+</script>
+
+<style>
+
+.mwrapper {
+    text-align: center;
+}
+
+    .tip-button {
+	margin:auto;
+    display:block;	
+	width: 304px;
+	height: 89px;
+	background-size: 100%;
+	background-image: url('images/2_pay_mm_off_donate.png'); 
+	cursor: pointer;
+	}
+
+    .tip-button:hover {
+	background-image: url('images/2_pay_mm_over_donate.png');
+	}
+		  
+    .tip-button:active {
+	background-image: url('images/2_pay_mm_off_donate. png'); 
+	}
+</style> <!-- The images above each show the amount 0.10ETH, be sure to change this if you change the ETH amount -->
+
+    </head>
+
+<body>
+<br>
+<br>
+<div id="banner"> 
+    <div class="mwrapper">	
+    <div class="tip-button"></div>
+    <p><div id="status"></div></p>
+</div>  
+</div>
+
+</body>
+    
+
+</html>
