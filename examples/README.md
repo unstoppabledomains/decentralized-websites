@@ -27,3 +27,8 @@ Check out [this article](https://medium.com/pinata/how-to-easily-host-a-website-
 - [React](https://github.com/PinataCloud/React-IPFS-Example)
 - [Angular](https://github.com/PinataCloud/Angular-IPFS-Example)
 - [Vue](https://github.com/PinataCloud/Vue-IPFS-Example)
+
+## Web3 UI Components
+
+- [Guarda Donate Button](./web3-ui-components/guarda-donate-button)
+- [MetaMask Tip Button](https://github.com/MetaMask/TipButton)
