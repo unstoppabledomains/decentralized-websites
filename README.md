@@ -54,3 +54,9 @@ To report a bug in a template or suggest an improvement to this repo simply go t
   - [Github Repo](https://github.com/ipfs/awesome-ipfs#awesome-ipfs-)
 - [Pinata - IPFS pinning service](https://pinata.cloud/)
 - [3Box - decentralized user data storage system](https://3box.io/)
+<!-- TODO -->
+- [Origin Protocol - Blockchain-powered commerce](https://github.com/OriginProtocol/origin)
+- [Orbit DB - Peer-to-Peer Databases for the Decentralized Web](https://github.com/orbitdb)
+- [GUN - A realtime, decentralized, offline-first, graph protocol to sync the web](https://github.com/amark/gun)
+- [DApps Delivery Guide](https://dapps-delivery-guide.readthedocs.io/)
+  - [CNS - Github Pipeline](https://dapps-delivery-guide.readthedocs.io/en/latest/domain/cns.html#setup-pipeline-with-crypto-update)
