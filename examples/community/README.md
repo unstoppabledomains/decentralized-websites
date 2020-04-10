@@ -5,6 +5,7 @@
 | @aranhaagency | stellar                | n                          |
 | @aranhaagency | stellar-simple         | n (pending)                |
 | @zzzaim       | personal-minimalist    | y                          |
+| @caseykey     | ipfs-music-player      | n (pending)                |
 | @inspireme6   | simple-portfolio-theme | n (pending)                |
 | @dsgriffin    | 4sale                  | n (pending)                |
 | @verymanley   | ambitious-opacity      | n (pending)                |
