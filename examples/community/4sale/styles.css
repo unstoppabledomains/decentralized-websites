@@ -164,6 +164,19 @@ button {
     color: #29293e;
 }
 
+.author {
+    font-size: 10px;
+    padding-right: 10px;
+    margin: 10px 0px 0 0;
+}
+
+.author-bar {
+    text-align: end;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .img-container {
     margin-top: 15px;
 }
@@ -177,11 +190,26 @@ button {
     padding-left: 20px;
 }
 
+/* Tablet */
+
+@media only screen and (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+        height: 94%;
+    }
+
+    .domain-box {
+        justify-content: flex-end;
+        margin-bottom: 0px !important;
+    }
+}
+
 /* Mobile */
 
 @media only screen and (max-width: 600px) {
     .content {
         flex-direction: column;
+        height: 90%;
     }
 
     .domain-box {
