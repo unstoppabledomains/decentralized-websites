@@ -6,8 +6,8 @@
 | @aranhaagency | stellar-simple         | n (pending)                |
 | @zzzaim       | personal-minimalist    | y                          |
 | @caseykey     | ipfs-music-player      | n (pending)                |
-| @inspireme6   | simple-portfolio-theme | n (pending)                |
-| @dsgriffin    | 4sale                  | n (pending)                |
+| @inspireme6   | simple-portfolio-theme | y                          |
+| @dsgriffin    | 4sale                  | y                          |
 | @verymanley   | ambitious-opacity      | n (pending)                |
 
 ## Submitting A Template
