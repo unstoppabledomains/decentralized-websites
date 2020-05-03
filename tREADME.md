@@ -32,3 +32,9 @@ Check out [this article](https://medium.com/pinata/how-to-easily-host-a-website-
 
 - [Guarda Donate Button](./web3-ui-components/guarda-donate-button)
 - [MetaMask Tip Button](https://github.com/MetaMask/TipButton)
+
+## Crypto Related Widgets
+
+- [FXEmpire News Feed](https://www.fxempire.com/widgets/newsfeed)
+- [CryptoCompare Widgets](https://www.cryptocompare.com/dev/widget/wizard)
+- [Cryptonator](https://www.cryptonator.com/widget)
