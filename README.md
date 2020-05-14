@@ -7,30 +7,30 @@
 Decentralized Websites
 </h1>
 
-<!-- TODO: Improve & lengthen description. Mention Website builder. Link to My Websites. -->
+This repository is for sharing information about building decentralized websites. It contains starter templates and resources for deploying websites to IPFS. The goal of this repository is to contribute examples for building all types of decentralized websites and to maintain an up-to-date list of resources for decentralized web development.
 
-> Repository for sharing templates and decentralized website info
-
-**[Join Our Community on Telegram](https://t.me/joinchat/FNyCe0oURg3dm10M7i3Zjg)**
+**[Join Our Developer Community on Telegram](https://t.me/joinchat/FNyCe0oURg3dm10M7i3Zjg)**
 
 ## Table of Contents
 
 - [Contributing](#contributing)
 - [Build A Site](#build-a-site)
-  - [Templates](#templates)
+  - [IPFS Community Templates](#ipfs-community-templates)
+  - [Unstoppable Domains Templates](#unstoppable-domains-templates)
   - [JS Framework Examples](#js-framework-examples)
-- [Deploy Site](#deploy-site)
-  - [Set up an automatic update](#set-up-an-automatic-update)
+- [Deploy Your Site](#deploy-your-site)
+  - [Set up automatic domain updates](#set-up-automatic-domain-updates)
 - [Additional Tools & Resources](#additional-tools---resources)
   - [3rd Party Libraries](#3rd-party-libraries)
   - [Decentralized Databases](#decentralized-databases)
   - [IPFS Information](#ipfs-information)
   - [Pinning Services](#pinning-services)
-  - [Blockchain Domains](#unstoppable-domains)
+  - [Blockchain Domains](#blockchain-domains)
+  - [Web3 & Crypto UI Components](#web3---crypto-ui-components)
 
 ## Contributing
 
-**[Template Marketplace & Bounty Announcment](https://medium.com/unstoppabledomains/unstoppable-website-templates-e5ed343a7c7a)**
+**[Bounty Announcment](https://medium.com/unstoppabledomains/unstoppable-website-templates-e5ed343a7c7a)**
 
 **Add your template**  
 We'd love to make your templates available on Unstoppable Domains' website builder.
@@ -47,6 +47,8 @@ To add a new template simply fork this repo, add your templates into [templates/
 To report a bug in a template or suggest an improvement to this repo simply go to issues and fill out the proper template.
 
 ## Build A Site
+
+Checkout our **[Website Builder](https://unstoppabledomains.com/my-websites?ref=website-builder&utm_source=github&utm_medium=readme&utm_campaign=decentralized_websites)** tool to easily deploy a site to your blockchain domain
 
 ### IPFS Community Templates
 
@@ -114,6 +116,8 @@ Check out [this article](https://medium.com/pinata/how-to-easily-host-a-website-
 - [Textile](https://github.com/textileio) - A set of open source tools that provide a decentralized database, IPFS-based storage, content hosting, and more
 - [GUN](https://github.com/amark/gun) - A realtime, decentralized, offline-first, graph protocol to sync the web
 
+<!-- TODO: ### Articles -->
+
 ### IPFS Information
 
 - [IPFS Homepage](https://ipfs.io/)
@@ -124,7 +128,8 @@ Check out [this article](https://medium.com/pinata/how-to-easily-host-a-website-
 
 ### Pinning Services
 
-- [Pinata - IPFS pinning service](https://pinata.cloud/)
+- [Pinata](https://pinata.cloud/)
+- [Temporal](https://temporal.cloud/)
 
 ### Blockchain Domains
 
