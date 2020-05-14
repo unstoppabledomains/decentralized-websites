@@ -54,20 +54,20 @@ Checkout our **[Website Builder](https://unstoppabledomains.com/my-websites?ref=
 
 | Author        | Template                                                        | Available In Builder (y/n) |
 | ------------- | --------------------------------------------------------------- | -------------------------- |
-| @aranhaagency | (Stellar)[templates/community/stellar]                          | n                          |
-| @aranhaagency | (Stellar Simple)[templates/community/stellar-simple]            | n (pending)                |
-| @zzzaim       | (Personal Minimalist)[templates/community/personal-minimalist]  | **y**                      |
-| @caseykey     | (IPFS Music Player)[templates/community/ipfs-music-player]      | n (pending)                |
-| @inspireme6   | (Simple Portfolio )[templates/community/simple-portfolio-theme] | **y**                      |
-| @dsgriffin    | (4 Sale)[templates/community/4sale]                             | **y**                      |
-| @verymanley   | (Ambitious (opacity))[templates/community/ambitious-opacity]    | n (pending)                |
+| @aranhaagency | [Stellar](templates/community/stellar)                          | n                          |
+| @aranhaagency | [Stellar Simple](templates/community/stellar-simple)            | n (pending)                |
+| @zzzaim       | [Personal Minimalist](templates/community/personal-minimalist)  | **y**                      |
+| @caseykey     | [IPFS Music Player](templates/community/ipfs-music-player)      | n (pending)                |
+| @inspireme6   | [Simple Portfolio ](templates/community/simple-portfolio-theme) | **y**                      |
+| @dsgriffin    | [4 Sale](templates/community/4sale)                             | **y**                      |
+| @verymanley   | [Ambitious (opacity)](templates/community/ambitious-opacity)    | n (pending)                |
 
 ### Unstoppable Domains Templates
 
-- (Ambitious )[templates/ud-static-templates/ambitious]
-- (Coming Soon )[templates/ud-static-templates/coming-soon]
-- (Gentle )[templates/ud-static-templates/gentle]
-- (Outstanding )[templates/ud-static-templates/outstanding]
+- [Ambitious](templates/ud-static-templates/ambitious)
+- [Coming Soon](templates/ud-static-templates/coming-soon)
+- [Gentle](templates/ud-static-templates/gentle)
+- [Outstanding](templates/ud-static-templates/outstanding)
 
 In the (`templates/ud-static-templates`)[templates/ud-static-templates] directory you will find all of the templates available on the Unstoppable Domains website builder feature. In the `index.html` files for each template directory you will find comments pointing to the items we use for updating in the website builder.
 
