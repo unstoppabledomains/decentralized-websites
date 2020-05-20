@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://unstoppabledomains.com/?ref=website-builder&utm_source=github&utm_medium=readme&utm_campaign=decentralized_websites">
+  <a href="https://unstoppabledomains.com/?ref=website_builder&utm_source=github&utm_medium=readme&utm_campaign=decentralized_websites">
     <img src="unstoppable-logo.svg" width="500" />
   </a>
 </p>
@@ -48,7 +48,7 @@ To report a bug in a template or suggest an improvement to this repo simply go t
 
 ## Build A Site
 
-Checkout our **[Website Builder](https://unstoppabledomains.com/my-websites?ref=website-builder&utm_source=github&utm_medium=readme&utm_campaign=decentralized_websites)** tool to easily deploy a site to your blockchain domain
+Checkout our **[Website Builder](https://unstoppabledomains.com/my-websites?ref=website_builder&utm_source=github&utm_medium=readme&utm_campaign=decentralized_websites)** tool to easily deploy a site to your blockchain domain
 
 ### IPFS Community Templates
 
