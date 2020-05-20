@@ -64,12 +64,12 @@ Checkout our **[Website Builder](https://unstoppabledomains.com/my-websites?ref=
 
 ### Unstoppable Domains Templates
 
-- [Ambitious](templates/ud-static-templates/ambitious)
-- [Coming Soon](templates/ud-static-templates/coming-soon)
-- [Gentle](templates/ud-static-templates/gentle)
-- [Outstanding](templates/ud-static-templates/outstanding)
+- [Ambitious](templates/unstoppable-domains/ambitious)
+- [Coming Soon](templates/unstoppable-domains/coming-soon)
+- [Gentle](templates/unstoppable-domains/gentle)
+- [Outstanding](templates/unstoppable-domains/outstanding)
 
-In the (`templates/ud-static-templates`)[templates/ud-static-templates] directory you will find all of the templates available on the Unstoppable Domains website builder feature. In the `index.html` files for each template directory you will find comments pointing to the items we use for updating in the website builder.
+In the (`templates/unstoppable-domains`)[templates/unstoppable-domains] directory you will find all of the templates available on the Unstoppable Domains website builder feature. In the `index.html` files for each template directory you will find comments pointing to the items we use for updating in the website builder.
 
 - The inline CSS styles are the options available to update in the website builder
 - SVG Icons are inlined so that colors can be updated
