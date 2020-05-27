@@ -68,6 +68,7 @@ Checkout our **[Website Builder](https://unstoppabledomains.com/my-websites?ref=
 - [Coming Soon](templates/unstoppable-domains/coming-soon)
 - [Gentle](templates/unstoppable-domains/gentle)
 - [Outstanding](templates/unstoppable-domains/outstanding)
+- [Basic Blog](https://github.com/unstoppabledomains/3box-blog-example)
 
 In the (`templates/unstoppable-domains`)[templates/unstoppable-domains] directory you will find all of the templates available on the Unstoppable Domains website builder feature. In the `index.html` files for each template directory you will find comments pointing to the items we use for updating in the website builder.
 
@@ -106,7 +107,8 @@ Check out [this article](https://medium.com/pinata/how-to-easily-host-a-website-
 
 ### 3rd Party Libraries
 
-- [3Box](https://3box.io/) - decentralized user data storage system
+- [3Box](https://3box.io/) - Decentralized user data storage system
+- [DAOstack](https://github.com/daostack) - Solutions to enable the creation of Decentralized Autonomous Organizations
 - [Unlock](https://github.com/unlock-protocol/unlock) - Membership protocol
 - [Origin Protocol](https://github.com/OriginProtocol/origin) - Blockchain-powered commerce
 
