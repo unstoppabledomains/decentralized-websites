@@ -75,7 +75,7 @@ In the (`templates/unstoppable-domains`)[templates/unstoppable-domains] director
 - The inline CSS styles are the options available to update in the website builder
 - SVG Icons are inlined so that colors can be updated
 
-### JS Framework Examples
+### JavaScript Framework Examples
 
 - [React](https://github.com/PinataCloud/React-IPFS-Example)
 - [Angular](https://github.com/PinataCloud/Angular-IPFS-Example)
