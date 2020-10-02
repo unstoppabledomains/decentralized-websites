@@ -11,7 +11,7 @@ This repository is for sharing information about building decentralized websites
 
 **[Join Our Developer Community on Telegram](https://t.me/joinchat/FNyCe0oURg3dm10M7i3Zjg)**
 
-## Table of Contents
+## Contents
 
 - [Contributing](#contributing)
 - [Build A Site](#build-a-site)
