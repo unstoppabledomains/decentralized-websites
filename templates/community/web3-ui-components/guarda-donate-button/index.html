@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!-- @incryptin -->
+
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  <title>Guarda Donate Button</title>
+  
+</head>
+<body>
+    <style>
+    
+    
+    
+        .tip-button {
+        margin:auto;
+        display:block;	
+        width: 220px;
+        height: 65px;
+        background-size: 100%;
+        background-image: url('./guarda_pay_off.png'); 
+        cursor: pointer;
+        }
+    
+        .tip-button:hover {
+        background-image: url('./guarda_pay_over.png');
+        }
+              
+        .tip-button:active {
+        background-image: url('./guarda_pay_off.png'); 
+        }
+
+        
+    </style> <!-- The images above each show the amount 0.01ETH, be sure to change this if you change the ETH amount -->
+
+    
+
+    
+
+           
+            <div align="center">
+                Example - *You can send me crypto payments directly to atomicfox.crypto* <!-- Edit to your domain name -->
+            </div>
+           
+            <br>
+            <span>  <div target="_blank" class="tip-button" onclick=" window.open('https://guarda.co/app/send?amount=0.01&&addressTo=atomicfox.crypto', '_blank'); return false;"> </div></span>  <!-- Add the amount and .crypto address here -->
+        </div>
+ 
+  
+</body>
+</html>

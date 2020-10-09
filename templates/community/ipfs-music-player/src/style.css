@@ -1,0 +1,133 @@
+
+a {
+    text-decoration: none;
+}
+
+#renderer {
+	height: 100%;
+}
+
+.jp-title li{
+	font-size: 32px;
+	color: white;
+}
+
+/* Header styling */
+header {
+	height: 3em;
+	width: 100%;
+	top: 0px;
+	position: absolute;
+	display: flex;
+	background: #f34927;
+	background: -moz-linear-gradient(bottom,  #f34927 0%, #dd3311 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f34927), color-stop(100%,#dd3311));
+	background: -webkit-linear-gradient(bottom,  #f34927 0%,#dd3311 100%);
+	background: -o-linear-gradient(bottom,  #f34927 0%,#dd3311 100%);
+	background: -ms-linear-gradient(bottom,  #f34927 0%,#dd3311 100%);
+	background: linear-gradient(to bottom,  #f34927 0%,#dd3311 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34927', endColorstr='#dd3311',GradientType=0 );
+	-webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .1);
+    box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+}
+header>h1 {
+	font-family: diskopia;
+	font-size: 2.5em;
+	text-shadow: 2px 2px purple;
+	float: left;
+}
+
+header a {
+	position: absolute;
+	right: 1em;
+	top: 10%;
+	color: black;
+	font-size: 1.5em;
+	float: right;
+}
+
+@media only screen and (max-width: 768px) {
+	header>h1 {
+		font-size: 1.2em;
+	}
+	header a {
+		font-size: 1.3em;
+	}
+	header span {
+		display: none;
+	}
+}
+
+
+
+@font-face {
+	font-family: diskopia;
+	src: url("./fonts/diskopia.ttf");
+
+}
+
+/* End of Header Styling */
+
+
+
+.por_portis-container>.por_portis-widget-frame {
+	top: 3.5em;
+	right: 10px;
+}
+
+
+header {
+	padding-left: 5px;
+	clear: left;
+	text-align: left;
+}
+
+header ul {
+	padding-left: 50px;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+header li {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	float: left;
+}
+
+.wallet {
+	display: block;
+	position: absolute;
+	top: 3.5em;
+	right: 10px;
+	width: 353px;
+	float: right;
+}
+
+#player {
+	position: absolute;
+	bottom: 10px;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	left: 0;
+	right: 0;
+}
+
+
+img {
+	position: fixed;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	right: 0; 
+}
+
+body {
+	height: 100%;
+}
