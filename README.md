@@ -9,7 +9,7 @@ Decentralized Websites
 
 This repository is for sharing information about building decentralized websites. It contains starter templates and resources for deploying websites to IPFS. The goal of this repository is to contribute examples for building all types of decentralized websites and to maintain an up-to-date list of resources for decentralized web development.
 
-**[Join Our Developer Community on Telegram](https://t.me/joinchat/FNyCe0oURg3dm10M7i3Zjg)**
+**[Join Our Developer Community on Discord](https://discord.gg/b6ZVxSZ9Hn)**
 
 ## Table of Contents
 

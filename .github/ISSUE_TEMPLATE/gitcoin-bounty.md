@@ -22,4 +22,4 @@ $/ETH
 TBD
 
 ### Have questions? 
-Join our developer channel on [Telegram!](https://t.me/unstoppabledev)
+Join our developer channel on [Discord!](https://discord.gg/b6ZVxSZ9Hn)
