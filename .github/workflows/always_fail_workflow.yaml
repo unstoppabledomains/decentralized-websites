@@ -1,0 +1,27 @@
+name: Always Fail Status Check
+
+on: [push, pull_request]
+
+env:
+  NODE_VERSION: 16.15.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [16]
+
+    name: Always Fail until proper checks are in place
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Informational Message
+        run: echo You need to setup proper branch protection rules and status checks
+
+      - name: Force Fail
+        run: exit 99
