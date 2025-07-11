@@ -30,7 +30,7 @@ This repository is for sharing information about building decentralized websites
 
 ## Contributing
 
-**[Bounty Announcment](https://medium.com/unstoppabledomains/unstoppable-website-templates-e5ed343a7c7a)**
+**[Bounty Announcement](https://medium.com/unstoppabledomains/unstoppable-website-templates-e5ed343a7c7a)**
 
 **Add your template**  
 We'd love to make your templates available on Unstoppable Domains' website builder.
@@ -125,7 +125,7 @@ Check out [this article](https://medium.com/pinata/how-to-easily-host-a-website-
 
 - [IPFS Homepage](https://ipfs.io/)
   - [Github Repo](https://github.com/ipfs/ipfs)
-- [IPFS Video Explaination](https://www.youtube.com/watch?v=5Uj6uR3fp-U)
+- [IPFS Video Explanation](https://www.youtube.com/watch?v=5Uj6uR3fp-U)
 - [Awesome IPFS](https://awesome.ipfs.io/)
   - [Github Repo](https://github.com/ipfs/awesome-ipfs#awesome-ipfs-)
 
