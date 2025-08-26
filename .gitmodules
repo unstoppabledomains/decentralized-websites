@@ -1,3 +1,6 @@
 [submodule "templates/unstoppable-domains/3box-blog-example"]
 	path = templates/unstoppable-domains/3box-blog-example
 	url = https://github.com/unstoppabledomains/3box-blog-example/
+[submodule "templates/community/memorial"]
+	path = templates/community/memorial
+	url = https://github.com/devidw/memorial
